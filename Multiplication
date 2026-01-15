@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+printf("MULTIPLICATION TABLE");
+printf("\n\n");
+  for (int a=1,b=1,c=1,j=1;a<=12&&b<=12&&c<=12&&j<=12;a++,b++,c++,j++){
+        printf("2*%d=%-3d 5*%d=%-3d 8*%d=%-3d 11*%d=%d\n",a,2*a,b,5*b,c,8*c,j,11*j);
+  }
+  printf("\n");
+for (int d=1,e=1,f=1,k=1;d<=12&&e<=12&&f<=12&&k<=12;d++,e++,f++,k++){
+    printf("3*%d=%-3d 6*%d=%-3d 9*%d=%-3d 12*%d=%d\n",d,3*d,e,6*e,f,9*f,k,12*k);
+}
+printf("\n");
+ for (int g=1,h=1,i=1;g<=12&&h<=12&&i<=12;g++,h++,i++){
+    printf("4*%d=%-3d 7*%d=%-3d 10*%d=%d\n",g,4*g,h,7*h,i,10*i);
+}
+return 0;
+}
